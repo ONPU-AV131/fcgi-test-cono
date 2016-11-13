@@ -1,0 +1,35 @@
+{
+  "name": "fcgi-test",
+  "version": "1.0.0",
+  "description": "Simple FCGI application for the ONPU students project",
+  "main": "js/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ONPU-AV131/fcgi-test-cono.git"
+  },
+  "keywords": [
+    "fcgi",
+    "react",
+    "babel",
+    "webpack",
+    "perl"
+  ],
+  "author": "cono",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/ONPU-AV131/fcgi-test-cono/issues"
+  },
+  "homepage": "https://github.com/ONPU-AV131/fcgi-test-cono#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.3"
+  }
+}

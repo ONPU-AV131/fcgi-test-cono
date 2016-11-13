@@ -1,0 +1,6 @@
+/local
+/node_modules
+.*.sw?
+/cpanfile.snapshot
+/htdocs/bundle.js
+/htdocs/bundle.js.map
