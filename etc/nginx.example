@@ -1,0 +1,21 @@
+server {
+    listen 80;
+    server_name fcgi.cono.org.ua;
+
+    client_max_body_size 32k;
+
+    location / {
+	try_files $uri @index;
+    }
+
+    location @index {
+	fastcgi_pass    127.0.0.1:11112;
+	include         fastcgi_params;
+    }
+
+
+    access_log /var/log/nginx/fcgi.cono.org.ua.access_log main;
+    error_log /var/log/nginx/fcgi.cono.org.ua.error_log info;
+
+    root /var/www/fcgi-test/htdocs;
+}
